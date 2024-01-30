@@ -87,7 +87,7 @@
 /* Блок 1 */
 
 .block-1 {
-  background-image: url(../images/Main_picture_01.png);
+  background-image: url(../images/main_picture_01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -111,7 +111,7 @@
 /* Блок 2 */
 
 .block-2 {
-  margin: 0 10vw 10vw 10vw;
+  margin: 3vw 10vw 3vw 10vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -127,10 +127,13 @@
 /* Блок 3 */
 
 .block-3 {
+  background-image: url(../images/main_picture_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 10vw 3vw 10vw;
+  padding: 4vw 3vw 6vw 3vw;
 }
 .block-3-container {
   width: 90%;
@@ -260,7 +263,7 @@
 /*NEWS-PAGE*/
 
 .block-news {
-  background-image: url(../images/Main_picture_01.png);
+  background-image: url(../images/main_picture_01.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -302,7 +305,7 @@
 /*CONTACT-PAGE*/
 
 .block-main {
-  background-image: url(../images/Main_picture_01.png);
+  background-image: url(../images/main_picture_01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
