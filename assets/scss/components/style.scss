@@ -4,7 +4,7 @@
     font: {
         family: $accent-font;
     }
-    color: rgba(183, 145, 95, 0.814);
+    color:  rgba(218, 80, 176, 0.5);
 }
 
 .block-2__header {
@@ -47,7 +47,7 @@
         weight: 500;
         size: 1.2em;
     }
-    color: rgb(183, 145, 95);
+    color:  rgba(218, 80, 176, 0.5);
 }
 .block-4__number,
 .block-3-container__item {
@@ -57,7 +57,7 @@
 @mixin button {
     font-family: $accent-font;
     background-color: white;
-    color: rgb(183, 145, 95);
+    color:  rgba(218, 80, 176, 0.5);
     text-decoration: none;
     padding: 15px;
     text-align: center;
