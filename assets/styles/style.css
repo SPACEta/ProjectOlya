@@ -493,4 +493,6 @@
 .block-main,
 .block-news__container-text {
   font-family: "Bellota Text", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
 }
