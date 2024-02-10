@@ -1,32 +1,20 @@
 
 @font-face {
-  src: url(./assets/fonts/ZenKakuGothicNew-Light.ttf) format("truetype");
-  font-family: "Zen Kaku Gothic New";
+  src: url(./assets/fonts/BellotaText-Light.ttf) format("truetype");
+  font-family: "Bellota Text";
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  src: url(./assets/fonts/ZenKakuGothicNew-Regular.ttf) format("truetype");
-  font-family: "Zen Kaku Gothic New";
+  src: url(./assets/fonts/BellotaText-Regular.ttf) format("truetype");
+  font-family: "Bellota Text";
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  src: url(./assets/fonts/ZenKakuGothicNew-Medium.ttf) format("truetype");
-  font-family: "Zen Kaku Gothic New";
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  src: url(./assets/fonts/ZenKakuGothicNew-Bold.ttf) format("truetype");
-  font-family: "Zen Kaku Gothic New";
+  src: url(./assets/fonts/BellotaText-Bold.ttf) format("truetype");
+  font-family: "Bellota Text";
   font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  src: url(./assets/fonts/ZenKakuGothicNew-Black.ttf) format("truetype");
-  font-family: "Zen Kaku Gothic New";
-  font-weight: 900;
   font-style: normal;
 }
 @font-face {
@@ -53,6 +41,13 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  src: url(./assets/fonts/Podkova-ExtraBold.ttf) format("truetype");
+  font-family: "Podkova";
+  font-weight: 800;
+  font-style: normal;
+}
+
 @font-face {
   src: url(./assets/fonts/Podkova-ExtraBold.ttf) format("truetype");
   font-family: "Podkova";
@@ -442,4 +437,60 @@
 .feedback{
   width: 100%;
   height: 100%;
+}
+
+  /*FONTS*/
+
+.block-2__header {
+  font-family: "Podkova", sans-serif;
+  color: rgba(57, 171, 212, 0.771);
+}
+
+.block-1__text,
+.block-2__text,
+.block-3-container__text,
+.block-4__text,
+.text {
+  font-family: "Bellota Text"", sans-serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: black;
+}
+
+.block-4__textbold,
+.text-bold,
+.block-news__header {
+  font-family: "Podkova", serif;
+  font-weight: 700;
+  font-size: 1.15em;
+}
+
+.block-4__number,
+.block-3-container__item {
+  font-family: "Podkova", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: rgba(80, 181, 218, 0.771);
+}
+
+.block-1__button,
+.block-5__container-link {
+  font-family: "Podkova", sans-serif;
+  background-color: white;
+  color: rgba(80, 181, 218, 0.771);
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+}
+
+.header,
+.block-1__h1,
+.block-3__header,
+.block-4__header,
+.block-5__header,
+.block-5__container > div > h3,
+.footer,
+.block-main,
+.block-news__container-text {
+  font-family: "Bellota Text", sans-serif;
 }
