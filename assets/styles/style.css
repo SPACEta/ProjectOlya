@@ -140,9 +140,7 @@
   grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
   justify-items: center;
 }
-.block-3-container__item {
-  text-align: center;
-}
+
 .block-3-container__text {
   border: 1.5px solid rgba(80, 181, 218, 0.771);
   padding: 20px;
