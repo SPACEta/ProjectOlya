@@ -1,6 +1,3 @@
-
-
-
 @font-face {
   src: url(./assets/fonts/BellotaText-Light.ttf) format("truetype");
   font-family: "Bellota Text";
@@ -8,7 +5,7 @@
   font-style: normal;
 }
 @font-face {
-  src: url(./assets/fonts/BellotaText-Regular.ttf) format("truetype");
+  src: url(assets/fonts/BellotaText-Regular.ttf) format("truetype");
   font-family: "Bellota Text";
   font-weight: 400;
   font-style: normal;
@@ -30,6 +27,24 @@
 @font-face {
   src: url(./assets/fonts/SourceSans3-Regular.ttf) format("truetype");
   font-family: 'Source Sans 3';
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url(/ProjectOlya/assets/fonts/Lora-Regular.ttf) format("truetype");
+  font-family: 'Lora';
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url(/ProjectOlya/assets/fonts/NotoSans_Condensed-Regular.ttf) format("truetype");
+  font-family: 'Noto Sans';
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url(/ProjectOlya/assets/fonts/OpenSans_Condensed-Regular.ttf) format("truetype");
+  font-family: 'Open Sans';
   font-weight: 400;
   font-style: normal;
 }
@@ -466,21 +481,21 @@
   /*FONTS*/
 
 .block-2__header {
-  font-family: "Podkova", sans-serif;
+  font-family: "Podkova", serif;
   color: rgba(57, 171, 212, 0.771);
 }
 
 .block-4__textbold,
 .text-bold,
 .block-news__header {
-  font-family: "Podkova", sans-serif;
+  font-family: "Podkova", serif;
   font-weight: 700;
   font-size: 1.15em;
 }
 
 .block-4__number,
 .block-3-container__item {
-  font-family: "Podkova", sans-serif;
+  font-family: "Podkova", serif;
   font-weight: 500;
   font-size: 1.2em;
   color: rgba(80, 181, 218, 0.771);
@@ -488,7 +503,7 @@
 
 .block-1__button,
 .block-5__container-link {
-  font-family: "Podkova", sans-serif;
+  font-family: "Podkova", serif;
   background-color: white;
   color: rgba(80, 181, 218, 0.771);
   text-decoration: none;
@@ -522,7 +537,7 @@
 }
 
 .block-2__text1{
-  font-family: "Podkova", sans-serif;
+  font-family: "Podkova", serif;
   font-weight: 400;
   font-size: 1.0em;
   color: black;
@@ -544,6 +559,27 @@
 
 .block-2__text4{
   font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: black;
+}
+
+.block-2__text5{
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: black;
+}
+
+.block-2__text6{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: black;
+}
+
+.block-2__text7{
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1.0em;
   color: black;
