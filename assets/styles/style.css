@@ -1,4 +1,6 @@
 
+
+
 @font-face {
   src: url(./assets/fonts/BellotaText-Light.ttf) format("truetype");
   font-family: "Bellota Text";
@@ -11,6 +13,28 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+@font-face {
+  src: url(./assets/fonts/Roboto-Regular.ttf) format("truetype");
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/Montserrat-Regular.ttf) format("truetype");
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url(./assets/fonts/SourceSans3-Regular.ttf) format("truetype");
+  font-family: 'Source Sans 3';
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 @font-face {
   src: url(./assets/fonts/BellotaText-Bold.ttf) format("truetype");
   font-family: "Bellota Text";
@@ -446,21 +470,10 @@
   color: rgba(57, 171, 212, 0.771);
 }
 
-.block-1__text,
-.block-2__text,
-.block-3-container__text,
-.block-4__text,
-.text {
-  font-family: "Bellota Text"", sans-serif;
-  font-weight: 400;
-  font-size: 1.0em;
-  color: black;
-}
-
 .block-4__textbold,
 .text-bold,
 .block-news__header {
-  font-family: "Podkova", serif;
+  font-family: "Podkova", sans-serif;
   font-weight: 700;
   font-size: 1.15em;
 }
@@ -493,6 +506,45 @@
 .block-main,
 .block-news__container-text {
   font-family: "Bellota Text", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.2em;
+}
+
+.block-1__text,
+.block-2__text,
+.block-3-container__text,
+.block-4__text,
+.text {
+  font-family: "Bellota Text", sans-serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: black;
+}
+
+.block-2__text1{
+  font-family: "Podkova", sans-serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: black;
+}
+
+.block-2__text2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: black;
+}
+
+.block-2__text3{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: black;
+}
+
+.block-2__text4{
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: black;
 }
