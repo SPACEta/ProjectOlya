@@ -604,3 +604,49 @@
   font-size: 1.0em;
   color: black;
 }
+
+
+  /*JS*/
+
+  .block-7 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .block-7 > div {
+    width: 100%;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 60px 1fr 60px;
+    grid-template-rows: 100%;
+  }
+  
+  .block-7 > div > ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(20, 300px);
+    list-style: none;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .block-7 > div > ul > li {
+    background-color: #c62828;
+    scroll-snap-align: center;
+  }
+  
+  .block-7 > div > button {
+    background-color: rgba(80, 181, 218, 0.771);
+    border: none;
+    cursor: pointer;
+  }
+  
+  #left {
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+  }
+  
+  #right {
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+  }
