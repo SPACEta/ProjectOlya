@@ -1,106 +1,36 @@
+
 @font-face {
-  src: url(./assets/fonts/BellotaText-Light.ttf) format("truetype");
-  font-family: "Bellota Text";
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  src: url(assets/fonts/BellotaText-Regular.ttf) format("truetype");
-  font-family: "Bellota Text";
+  src: url(/ProjectOlya/assets/fonts/CormorantGaramond-Regular.ttf) format("truetype");
+  font-family: "Cormorant Garamond";
   font-weight: 400;
   font-style: normal;
 }
 
-
 @font-face {
-  src: url(./assets/fonts/Roboto-Regular.ttf) format("truetype");
-  font-family: "Roboto";
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  src: url(./assets/fonts/Montserrat-Regular.ttf) format("truetype");
+  src: url(/ProjectOlya/assets/fonts/Montserrat-Regular.ttf) format("truetype");
   font-family: "Montserrat";
   font-weight: 400;
   font-style: normal;
 }
-@font-face {
-  src: url(./assets/fonts/SourceSans3-Regular.ttf) format("truetype");
-  font-family: 'Source Sans 3';
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  src: url(/ProjectOlya/assets/fonts/Lora-Regular.ttf) format("truetype");
-  font-family: 'Lora';
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  src: url(/ProjectOlya/assets/fonts/NotoSans_Condensed-Regular.ttf) format("truetype");
-  font-family: 'Noto Sans';
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  src: url(/ProjectOlya/assets/fonts/OpenSans_Condensed-Regular.ttf) format("truetype");
-  font-family: 'Open Sans';
-  font-weight: 400;
-  font-style: normal;
-}
+
+
+
 
 
 @font-face {
   src: url(./assets/fonts/BellotaText-Bold.ttf) format("truetype");
-  font-family: "Bellota Text";
+  font-family: "hhhhhhhh";
   font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  src: url(./assets/fonts/Podkova-Regular.ttf) format("truetype");
-  font-family: "Podkova";
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  src: url(./assets/fonts/Podkova-Medium.ttf) format("truetype");
-  font-family: "Podkova";
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  src: url(./assets/fonts/Podkova-SemiBold.ttf) format("truetype");
-  font-family: "Podkova";
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  src: url(./assets/fonts/Podkova-Bold.ttf) format("truetype");
-  font-family: "Podkova";
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  src: url(./assets/fonts/Podkova-ExtraBold.ttf) format("truetype");
-  font-family: "Podkova";
-  font-weight: 800;
   font-style: normal;
 }
 
-@font-face {
-  src: url(./assets/fonts/Podkova-ExtraBold.ttf) format("truetype");
-  font-family: "Podkova";
-  font-weight: 800;
-  font-style: normal;
-}
 
 /* Header */
 
 .header {
-  background-color: rgba(134, 233, 244, 0.1);
-  border-bottom: 1.5px solid rgba(80, 181, 218, 0.771);
-  font-size: 1.1em;
+  background-color: rgba(69, 210, 225, 0.145);
 }
+
 .header__link-container {
   display: flex;
   flex-direction: row;
@@ -115,30 +45,6 @@
   text-decoration: none;
 }
 
-/* Блок 1 */
-
-.block-1 {
-  background-image: url(../images/main_picture_01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  border-bottom: 1.5px solid rgba(80, 181, 218, 0.771);
-}
-.block-1__h1 {
-  width: 40%;
-  margin: 10% 0 0 10%;
-}
-.block-1__text {
-  width: 40%;
-  margin-left: 10%;
-}
-.block-1__button {
-  max-width: 20%;
-  margin: 10px 0 10% 10%;
-  border: 1.5px solid  rgba(80, 181, 218, 0.771);
-}
-
 /* Блок 2 */
 
 .block-2 {
@@ -146,6 +52,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  line-height: 1.3;
+
 }
 .block-2__img {
   height: 40vw;
@@ -498,32 +406,63 @@
   height: 100%;
 }
 
+
+
+
   /*FONTS*/
 
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: rgba(80, 181, 218, 0.771);
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgba(80, 181, 218, 0.771);
+  }
+}
+
 .block-2__header {
-  font-family: "Podkova", serif;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
   color: rgba(57, 171, 212, 0.771);
 }
+
+.block-2__text {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: black;
+}
+
+
+
+
 
 .block-4__textbold,
 .text-bold,
 .block-news__header {
-  font-family: "Podkova", serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
   font-size: 1.15em;
 }
 
 .block-4__number,
 .block-3-container__item {
-  font-family: "Podkova", serif;
+  font-family: "Montserrat", serif;
   font-weight: 500;
   font-size: 1.2em;
   color: rgba(80, 181, 218, 0.771);
 }
 
-.block-1__button,
+
 .block-5__container-link {
-  font-family: "Podkova", serif;
+  font-family: "Montserrat", serif;
   background-color: white;
   color: rgba(80, 181, 218, 0.771);
   text-decoration: none;
@@ -531,8 +470,7 @@
   text-align: center;
 }
 
-.header,
-.block-1__h1,
+
 .block-3__header,
 .block-4__header,
 .block-5__header,
@@ -540,13 +478,12 @@
 .footer,
 .block-main,
 .block-news__container-text {
-  font-family: "Bellota Text", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 2.125rem;
 }
 
-.block-1__text,
-.block-2__text,
+
 .block-3-container__text,
 .block-4__text,
 .text {
@@ -555,56 +492,6 @@
   font-size: 1.0em;
   color: black;
 }
-
-.block-2__text1{
-  font-family: "Podkova", serif;
-  font-weight: 400;
-  font-size: 1.0em;
-  color: black;
-}
-
-.block-2__text2{
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 1.0em;
-  color: black;
-}
-
-.block-2__text3{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1.0em;
-  color: black;
-}
-
-.block-2__text4{
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 400;
-  font-size: 1.0em;
-  color: black;
-}
-
-.block-2__text5{
-  font-family: 'Lora', serif;
-  font-weight: 400;
-  font-size: 1.0em;
-  color: black;
-}
-
-.block-2__text6{
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1.0em;
-  color: black;
-}
-
-.block-2__text7{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1.0em;
-  color: black;
-}
-
 
   /*JS*/
 
