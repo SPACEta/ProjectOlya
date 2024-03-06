@@ -14,4 +14,3 @@ function scroll(val) {
     behavior: 'smooth' 
     });
 }
-

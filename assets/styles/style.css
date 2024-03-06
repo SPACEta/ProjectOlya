@@ -5,9 +5,39 @@
   font-style: normal;
 }
 @font-face {
+  src: url(/ProjectOlya/assets/fonts/CormorantGaramond-Medium.ttf) format("truetype");
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  src: url(/ProjectOlya/assets/fonts/CormorantGaramond-SemiBold.ttf) format("truetype");
+  font-family: "Cormorant Garamond";
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
   src: url(/ProjectOlya/assets/fonts/Montserrat-Regular.ttf) format("truetype");
   font-family: "Montserrat";
   font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url(/ProjectOlya/assets/fonts/Montserrat-Medium.ttf) format("truetype");
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  src: url(/ProjectOlya/assets/fonts/Montserrat-SemiBold.ttf) format("truetype");
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  src: url(/ProjectOlya/assets/fonts/Montserrat-Bold.ttf) format("truetype");
+  font-family: "Montserrat";
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -130,7 +160,6 @@
 
   /*block-3_karuselv - JS*/
   .block-3_karusel {
-    height: 50vh;
     display: flex;
     align-items: center;
   }
@@ -432,7 +461,7 @@ block-5_text-name{
 
 .block-2__header {
   font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
+  font-weight: 500;
   color: rgba(57, 171, 212, 0.771);
   font-size: 2.5em;
 }
@@ -458,8 +487,8 @@ block-5_text-name{
 
 .block-5__container-link {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  color: rgba(80, 181, 218, 0.771);
+  font-weight: 600;
+  color: rgba(80, 181, 218, 0.926);
   font-size: 1.0rem;
 }
 .block-5_text-name {
@@ -469,12 +498,12 @@ block-5_text-name{
 }
 .block-5_text-bold {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 0.9rem;
 }
 .block-5_text-boldname {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.1rem;
 }
 .text {
