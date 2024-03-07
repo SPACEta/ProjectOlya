@@ -158,6 +158,17 @@
   }
 }
 
+.block-3__container-link {
+  background-color: white;
+  border: 1.5px solid  rgba(80, 181, 218, 0.771);
+  border-radius: 70px;
+  width: 50vw;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 5vw;
+}
+
   /*block-3_karuselv - JS*/
   .block-3_karusel {
     display: flex;
@@ -392,7 +403,7 @@ block-5_text-name{
 
 /*CONTACT-PAGE*/
 
-.block-main {
+.contact-main {
   background-image: url(../images/main_picture_01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -403,9 +414,9 @@ block-5_text-name{
   justify-content: start;
   text-align: center;
   height: 100vh;
-  padding: 10px;
+  padding-top: 5vw;
 }
-.button-link {
+.contact-link {
   background-color: white;
   border: 1.5px solid  rgba(80, 181, 218, 0.771);
   border-radius: 70px;
@@ -415,30 +426,18 @@ block-5_text-name{
   padding: 15px;
   margin-top: 5vw;
 }
-.block-main__icon {
+
+.contact-main__icon {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 50vw;
 }
 
-
 @media screen and (max-width: 650px) {
-  .block-main {
+  .contact-main__icon {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    text-align: center;
-  }
-  .button-link {
-    color: black;
-    text-decoration: none;
-  }
-  .block-main__icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
 
@@ -544,12 +543,6 @@ block-5_text-name{
   font-size: 1.15rem;
 }
 
-.block-main {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
-  font-size: 3.5rem;
-}
-
 .block-news__container-textBig {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
@@ -564,13 +557,21 @@ block-5_text-name{
 }
 
 .block-3__container-link {
-  font-family: "Cormorant Garamond", sans-serif;
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: rgba(80, 181, 218, 0.926);
+  font-size: 1.0rem;
+}
+
+.contact-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2.0rem;
   color: black;
-  font-size: 1.3rem;
-  border-top: 1.5px solid  rgba(80, 181, 218, 0.771);
-  padding: 15px;
-  text-decoration: none;
-  text-align: center;
+}
+.contact-main {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 2.1rem;
 }
 
