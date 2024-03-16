@@ -171,6 +171,10 @@
     grid-column-start: 1;
     grid-column-end: 4;
   }
+  .block-3_karusel > div > ul {
+    width: 80%;
+    grid-template-columns: repeat(2, 100px);
+  }
 }
 
   /*block-3_karuselv - JS*/
