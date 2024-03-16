@@ -167,6 +167,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
   }
+  .block-3__container-link{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
 }
 
   /*block-3_karuselv - JS*/
