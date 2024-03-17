@@ -168,56 +168,7 @@
     grid-gap: 15px;
   }
   .block-3__container-link {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    font-size: 0.55rem;
-  }
-}
-
-  /*block-3_karuselv - JS*/
-  .block-3_karusel {
-    display: flex;
-    align-items: center;
-  }
-  .block-3_karusel > div {
-    width: 100%;
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 60px 1fr 60px;
-    grid-template-rows: 100%;
-  }
-  .block-3_karusel > div > ul {
-    width: 100%;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(20, 300px);
-    list-style: none;
-    overflow: hidden;
-    scroll-snap-type: x mandatory;
-  }
-  .block-3_karusel > div > ul > li {
-    background-color: white;
-    scroll-snap-align: center;
-  }
-  .block-3_karusel > div > button {
-    background-color: rgba(80, 181, 218, 0.771);
-    border: none;
-    cursor: pointer;
-  }
-  #left {
-    clip-path: polygon(100% 0, 0 50%, 100% 100%);
-    height: 50%;
-    width: 50%;
-  }
-  #right {
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
-    height: 50%;
-    width: 50%;
-  }
-
-@media screen and (max-width: 650px) {
-  .block-3_karusel > div > ul {
-    grid-template-columns: repeat(2, 100px);
+    font-size: 0.4rem;
   }
 }
 
@@ -586,6 +537,8 @@ block-5_text-name{
   }
 }
 
+
+  /*CARUSEL*/
 * {
 	box-sizing: border-box;
 }
@@ -605,4 +558,11 @@ block-5_text-name{
 .carousel-cell:before {
 	display: block;
 	content: '';
+}
+
+@media screen and (max-width: 650px) {
+  .carousel {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
 }
