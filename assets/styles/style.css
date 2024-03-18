@@ -543,7 +543,8 @@ block-5_text-name{
 	margin-top: 5vw;
   margin-bottom: 5vw;
 }
-.carousel-cell {
+.carousel-cell,
+.carousel-cell-video {
 	width: 20%;
 	margin-right: 10px;
 	border-radius: 15px;
@@ -563,5 +564,8 @@ block-5_text-name{
   }
   .carousel-cell {
     width: 40%;
+  }
+  .carousel-cell-video {
+    width: 70%;
   }
 }
